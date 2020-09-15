@@ -27,3 +27,4 @@ FileLogger
 
 App.Config
 	Defines the Environment the files are written to.
+	Each filePath needs to be set up prior to running app. ex. 'C:\temp\PROD' 'C:\temp\DEVL'

@@ -13,8 +13,8 @@ namespace Logger
         public void Log(string logType, string message)
         {
             // SET Enviornment
-            string environment = ConfigurationManager.AppSettings["DevlEnvironment"];
-            //string environment = ConfigurationManager.AppSettings["ProdEnvironment"];
+            //string environment = ConfigurationManager.AppSettings["DevlEnvironment"];
+            string environment = ConfigurationManager.AppSettings["ProdEnvironment"];
 
             string allMessagesfilePath   = String.Format("C:\\temp\\{0}\\log.txt",        environment);
             string infoMessagesfilePath  = String.Format("C:\\temp\\{0}\\infolog.txt",    environment);
