@@ -13,6 +13,6 @@ namespace Logger
         /// </summary>
         /// <param name="logType"></param>
         /// <param name="message"></param>
-        void Log(string logType, string message);
+        void Log(string logType, string message, string filePath);
     }
 }
